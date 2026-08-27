@@ -1,7 +1,9 @@
 # ChronoGlance
 Home Assistant Theme that will soon Dynamically Adjust based on Events, Holidays, and Mood.
 
-
+### ChronoGlance
+<img width="500" alt="vision-light" src="https://raw.githubusercontent.com/DebendeBurcht/ChronoGlance/Screenshots/Dark%20and%20Default.PNG" /><img width="500" alt="vision-dark" src="https://raw.githubusercontent.com/DebendeBurcht/ChronoGlance/Screenshots/Dark%20and%20Default.PNG" />
+  
 
 ## Installation
 
