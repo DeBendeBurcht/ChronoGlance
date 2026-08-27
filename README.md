@@ -1,5 +1,5 @@
 # ChronoGlance
-Home Assistant Theme that Dynamically Adjusts based on Events, Holidays, and Mood.
+Home Assistant Theme that will soon Dynamically Adjust based on Events, Holidays, and Mood.
 
 
 
