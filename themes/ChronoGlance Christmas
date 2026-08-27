@@ -1,0 +1,171 @@
+ChronoGlance-Christmas:
+  # Home Assistant card styling for a cozy, festive appearance
+  ha-card-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.24) # Adds subtle shadow for depth
+  ha-card-border-radius: 24px # Rounded corners for modern card look
+  ha-card-border-width: "2px" # Thicker border for cozy, defined cards
+  ha-card-background: "rgba(253, 255, 252, 0.95)" # Slightly green-tinted white for festive card background
+  ha-card-border-color: "rgba(255, 215, 0, 0.3)" # Gold-tinted border for Christmas warmth
+
+  # Mushroom layout for consistent spacing
+  mush-spacing: 8px # Standard spacing for UI elements
+
+  # Title styling for section headers
+  mush-title-padding: 22px 10px 14px # Padding for balanced title placement
+  mush-title-spacing: 6px # Spacing between title elements
+  mush-title-font-size: 24px # Large font for prominent titles
+  mush-title-font-weight: normal # Normal weight for clean look
+  mush-title-line-height: 1.2 # Tight line height for compact titles
+
+  # Subtitle styling for secondary text
+  mush-subtitle-font-size: 14px # Smaller font for subtitles
+  mush-subtitle-font-weight: normal # Normal weight for subtle appearance
+  mush-subtitle-line-height: 1.2 # Tight line height for readability
+
+  # Card text styling for primary and secondary content
+  mush-card-primary-font-size: 16px # Larger font for cozy, prominent card text
+  mush-card-secondary-font-size: 14px # Larger secondary text for festive feel
+  mush-card-primary-font-weight: bold # Bold for emphasis on primary text
+  mush-card-secondary-font-weight: bolder # Stronger emphasis for secondary text
+  mush-card-primary-line-height: 1.5 # Comfortable line height for readability
+  mush-card-secondary-line-height: 1.5 # Consistent line height for secondary text
+
+  # Chip styling for compact UI elements
+  mush-chip-spacing: 8px # Spacing between chips
+  mush-chip-padding: 0 0.25em # Minimal padding for chip content
+  mush-chip-height: 36px # Fixed height for uniform chips
+  mush-chip-border-radius: 18px # Rounded edges for pill-like chips
+  mush-chip-font-size: 0.3em # Small font for chip text
+  mush-chip-font-weight: bold # Bold text for clarity
+  mush-chip-icon-size: 0.5em # Small icons for compact chips
+  mush-chip-avatar-padding: 0.1em # Minimal padding for avatars
+  mush-chip-avatar-border-radius: 40% # Rounded avatar for consistency
+  mush-chip-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.24) # Shadow for chip depth
+  mush-chip-background: "rgba(0, 100, 0, 0.2)" # Vibrant green for Christmas-themed chips
+
+  # Control styling for interactive elements
+  mush-control-border-radius: 16px # Rounded corners for controls
+  mush-control-height: 46px # Fixed height for uniform controls
+  mush-control-button-ratio: 0.8 # Balanced button proportions
+  mush-control-icon-size: 0.5em # Small icons for controls
+  mush-control-background: "rgba(0, 100, 0, 0.2)" # Vibrant green for festive controls
+
+  # Slider settings
+  mush-slider-threshold: 8 # Sensitivity threshold for sliders
+
+  # Badge styling for status indicators
+  mush-badge-size: 18px # Small size for badges
+  mush-badge-icon-size: 0.75em # Compact icon size
+  mush-badge-border-radius: 50% # Circular badges
+  mush-badge-background: "rgba(0, 100, 0, 0.3)" # Darker vibrant green for festive badges
+
+  # Icon styling for visual elements
+  mush-icon-border-radius: 40% # Rounded icons
+  mush-icon-size: 50px # Large icons for visibility
+  mush-icon-symbol-size: 0.5em # Compact symbol size within icons
+
+  # Color palette for vibrant Christmas-themed state indicators
+  mush-rgb-red: 211, 47, 47 # Festive red for alerts or danger states
+  mush-rgb-pink: 233, 30, 99 # Pink for specific entities
+  mush-rgb-purple: 156, 39, 176 # Purple for unique states
+  mush-rgb-deep-purple: 103, 58, 183 # Deep purple for contrast
+  mush-rgb-indigo: 63, 81, 181 # Indigo for subtle accents
+  mush-rgb-blue: 33, 150, 237 # Blue for default states (e.g., switches)
+  mush-rgb-light-blue: 3, 169, 244 # Light blue for visibility
+  mush-rgb-cyan: 0, 188, 212 # Cyan for specific indicators
+  mush-rgb-teal: 0, 150, 136 # Teal for variety
+  mush-rgb-green: 46, 125, 50 # Vibrant holly green for success states
+  mush-rgb-light-green: 105, 240, 174 # Bright mint green for festive accents
+  mush-rgb-lime: 205, 220, 57 # Lime for high visibility
+  mush-rgb-yellow: 255, 235, 59 # Yellow for warnings
+  mush-rgb-amber: 255, 215, 0 # Gold for Christmas-themed lights or accents
+  mush-rgb-orange: 255, 152, 0 # Orange for secondary warnings
+  mush-rgb-deep-orange: 255, 87, 34 # Deep orange for strong alerts
+  mush-rgb-gold: 255, 215, 0 # Festive gold for holiday highlights
+  mush-rgb-grey: 158, 158, 158 # Grey for neutral or disabled states
+  mush-rgb-blue-grey: 96, 125, 139 # Blue-grey for subtle indicators
+  mush-rgb-black: 0, 25, 0 # Near-black for dark accents
+  mush-rgb-white: 255, 255, 255 # White for snow-like backgrounds
+  mush-rgb-info: 33, 150, 237 # Blue for info states
+  mush-rgb-success: 46, 125, 50 # Holly green for success
+  mush-rgb-warning: 255, 215, 0 # Gold for warnings
+  mush-rgb-danger: 211, 47, 47 # Festive red for danger
+  mush-rgb-state-fan: 46, 125, 50 # Holly green for fan on
+  mush-rgb-state-light: 255, 215, 0 # Gold for light on
+  mush-rgb-state-entity: 33, 150, 237 # Blue for general entities
+  mush-rgb-state-switch: 33, 150, 237 # Blue for switches
+
+  modes:
+    light:
+      mush-rgb-disabled: 189, 195, 189 # Muted green for disabled elements
+      text-color: "#1E1E1E" # Dark gray for readable text
+      text-primary-color: "var(--text-color)" # Links to text-color
+      secondary-text-color: "#043613" # Deep green for secondary text
+      text-medium-color: "#4D5C45" # Grayish-green for medium text
+      primary-color: "#003D00" # Deep holly green for UI accents
+      ha-card-background: "rgba(253, 255, 252, 0.95)" # Slightly green-tinted white for festive card background
+      mush-chip-background: "rgba(0, 100, 0, 0.2)" # Vibrant green for Christmas-themed chips
+      mush-control-background: "rgba(0, 100, 0, 0.2)" # Vibrant green for festive controls
+      mush-badge-background: "rgba(0, 100, 0, 0.3)" # Darker vibrant green for festive badges
+      sidebar-background-color: "#D4EFDF" # Bright mint green for festive sidebar
+      sidebar-text-color: "#1E1E1E" # Dark gray for readable sidebar text
+      app-header-background-color: "#D4EFDF" # Matches sidebar for cohesive festive header
+      primary-background-color: "#D4EFDF" # Bright mint green for primary background elements
+
+      # Semantic tokens for consistent festive styling
+      ha-color-focus: var(--ha-color-primary-60) # Festive lime green for focused elements
+      ha-color-text-primary: var(--text-color) # Links to text-color
+      ha-color-text-secondary: var(--secondary-text-color) # Links to secondary-text-color
+      ha-color-text-disabled: var(--ha-color-neutral-60) # Light gray for disabled text
+      ha-color-text-link: var(--ha-color-primary-50) # Bright lime green for links
+      ha-color-border-quiet: rgba(255, 215, 0, 0.2) # Subtle gold border for Christmas warmth
+      ha-color-border-normal: rgba(255, 215, 0, 0.4) # Stronger gold border for festive look
+      ha-color-border-loud: var(--ha-color-primary-50) # Bright lime green for prominent borders
+      ha-color-fill-primary-quiet-resting: var(--ha-color-primary-95) # Bright mint green for resting states
+      ha-color-fill-primary-quiet-hover: var(--ha-color-primary-90) # Pale mint green for hover
+      ha-color-fill-primary-quiet-active: var(--ha-color-primary-95) # Bright mint green for active
+      ha-color-fill-primary-normal-resting: var(--ha-color-primary-90) # Pale mint green for normal states
+      ha-color-fill-primary-normal-hover: var(--ha-color-primary-80) # Light green for hover
+      ha-color-fill-primary-normal-active: var(--ha-color-primary-90) # Pale mint green for active
+      ha-color-fill-primary-loud-resting: var(--ha-color-primary-50) # Bright lime green for loud states
+      ha-color-fill-primary-loud-hover: var(--ha-color-primary-40) # Vibrant green for hover
+      ha-color-fill-primary-loud-active: var(--ha-color-primary-50) # Bright lime green for active
+      ha-color-on-primary-quiet: var(--ha-color-primary-50) # Bright lime green for text on quiet backgrounds
+      ha-color-on-primary-normal: var(--ha-color-primary-40) # Vibrant green for text on normal backgrounds
+      ha-color-on-primary-loud: var(--white-color) # White for text on loud backgrounds
+
+    dark:
+      mush-rgb-disabled: 111, 134, 111 # Muted green for disabled elements
+      text-color: "#fafff8" # Near-white for readable text on dark backgrounds
+      text-primary-color: "var(--text-color)" # Links to text-color
+      secondary-text-color: "#77896e" # Muted green for secondary text
+      text-medium-color: "#808a7b" # Grayish-green for medium text
+      primary-color: "#8dcea3" # Light green for UI accents
+      ha-card-background: "rgba(20, 20, 20, 0.9)" # Dark, semi-transparent background for cards
+      sidebar-background-color: "#191919" # Dark gray for sidebar, unchanged for dark mode
+      sidebar-text-color: "#fafff8" # Near-white for readable sidebar text
+      mush-chip-background: "rgba(0, 100, 0, 0.2)" # Vibrant green for Christmas-themed chips
+      mush-control-background: "rgba(0, 100, 0, 0.2)" # Vibrant green for festive controls
+      mush-badge-background: "rgba(0, 100, 0, 0.3)" # Darker vibrant green for festive badges
+      app-header-background-color: "#191919" # Matches sidebar for cohesive dark mode header
+
+      # Semantic tokens for consistent festive styling
+      ha-color-focus: var(--ha-color-primary-60) # Festive lime green for focused elements
+      ha-color-text-primary: var(--text-color) # Links to text-color
+      ha-color-text-secondary: var(--secondary-text-color) # Links to secondary-text-color
+      ha-color-text-disabled: var(--ha-color-neutral-50) # Neutral gray for disabled text
+      ha-color-text-link: var(--ha-color-primary-70) # Lighter green for links
+      ha-color-border-quiet: rgba(255, 215, 0, 0.2) # Subtle gold border for Christmas warmth
+      ha-color-border-normal: rgba(255, 215, 0, 0.4) # Stronger gold border for festive look
+      ha-color-border-loud: var(--ha-color-primary-60) # Festive lime green for prominent borders
+      ha-color-fill-primary-quiet-resting: var(--ha-color-primary-10) # Dark green for resting states
+      ha-color-fill-primary-quiet-hover: var(--ha-color-primary-20) # Slightly lighter green for hover
+      ha-color-fill-primary-quiet-active: var(--ha-color-primary-10) # Dark green for active
+      ha-color-fill-primary-normal-resting: var(--ha-color-primary-20) # Dark green for normal states
+      ha-color-fill-primary-normal-hover: var(--ha-color-primary-30) # Lighter green for hover
+      ha-color-fill-primary-normal-active: var(--ha-color-primary-20) # Dark green for active
+      ha-color-fill-primary-loud-resting: var(--ha-color-primary-60) # Festive lime green for loud states
+      ha-color-fill-primary-loud-hover: var(--ha-color-primary-50) # Bright lime green for hover
+      ha-color-fill-primary-loud-active: var(--ha-color-primary-60) # Festive lime green for active
+      ha-color-on-primary-quiet: var(--ha-color-primary-70) # Lighter green for text on quiet backgrounds
+      ha-color-on-primary-normal: var(--ha-color-primary-60) # Festive lime green for text on normal backgrounds
+      ha-color-on-primary-loud: var(--white-color) # White for text on loud backgrounds
